@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+
+ ;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 1350px;
+}
+
+nav h2 {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+nav h2:hover {
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul {
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    letter-spacing: 3px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.container {
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vh;
+}
+
+.carousel-item img {
+    width: 1366px;
+    height: 570px;
+}
+
+.services {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 150px;
+}
+
+.services h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.images {
+    display: flex;
+}
+
+.image-block {
+    width: 350px;
+    margin-left: 15px;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    padding: 13px;
+}
+
+.image-block2 {
+    width: 350px;
+    margin-left: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    margin-left: 150px;
+    padding: 13px;
+}
+
+.image-block3 {
+    width: 350px;
+    margin-left: 121px;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    padding: 13px;
+}
+
+.pricing {
+    margin-top: 100px;
+}
+
+@media(max-width:800px) {
+    nav {
+
+        background-color: black;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    li {
+        float: left;
+        list-style-type: none;
+        letter-spacing: 1px;
+    }
+
+    nav h2 {
+        margin-top: 12px;
+        margin-left: 5px;
+        font-weight: 800;
+        letter-spacing: 3px;
+    }
+
+    .carousel-item img {
+        width: 1366px;
+        height: 450px;
+        margin-bottom: 100px;
+    }
+
+    .services h1 {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin-left: -50px;
+    }
+
+    .image-block {
+        width: 350px;
+       margin-left: -40px;
+        border: 2px solid aliceblue;
+        border-radius: 4px;
+        padding: 13px;
+    }
+
+    .image-block2 {
+        width: 350px;
+       margin-left: -40px;
+        border: 2px solid aliceblue;
+        border-radius: 4px;
+        padding: 13px;
+    }
+
+    .image-block3 {
+        width: 350px;
+        margin-left: -40px;
+        border: 2px solid aliceblue;
+        border-radius: 4px;
+        padding: 13px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+    .services {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-top: 100px;
+       
+    }
+    .pricing{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .carousel-item img {
+        width: 1366px;
+        height: 300px;
+    }
+}
