@@ -12,12 +12,84 @@ html {
 
 body {
     overflow-x: hidden;
-
- ;
 }
+.maintext{
+ font-weight: 700;
+}
+.contact h2{
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   letter-spacing: 3px;
+   margin-bottom: 50px;
+}
+@keyframes animate{
+    0%{
+        color: black;
+    }
+    30%{
+   color: blue;
+    }
+    40%{
+        color: orange;
+    }
+    50%{
+        color: red;
+    }
+}
+#logo{
+    animation: logo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    10%{
+        color: green;
+    }
+    30%{
+        color: aqua;
+    }
+    50%{
+        color: deepskyblue;
+    }
+}
+.email{
+    margin-bottom: 15px;
+}
+.contact{
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+.reachus{
+    margin-left: 25px;
+}
+.number{
+    font-size:large; 
+}
+.fa-at:before {
+    margin-right: 50px;
+    content: "\40";
+}
+.fa-phone:before {
+    margin-right: 50px;
+    content: "\f095";
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+  }
+  .seperate{
+    border: 1px solid rgb(192, 180, 180);
 
+  }
 nav {
-
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -44,6 +116,8 @@ nav a:hover {
 }
 
 ul {
+  
+    list-style-type: none;
     overflow: hidden;
     display: inline-block;
     padding: 10px;
@@ -116,7 +190,11 @@ li a {
 .pricing {
     margin-top: 100px;
 }
-
+.line
+{
+    margin-top: 50px;
+    border: 1px solid grey;
+}
 @media(max-width:800px) {
     nav {
 
