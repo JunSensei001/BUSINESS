@@ -40,22 +40,7 @@ body {
         color: red;
     }
 }
-#logo{
-    animation: logo;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-@keyframes logo{
-    10%{
-        color: green;
-    }
-    30%{
-        color: aqua;
-    }
-    50%{
-        color: deepskyblue;
-    }
-}
+
 .email{
     margin-bottom: 15px;
 }
@@ -65,7 +50,9 @@ body {
     margin-top: 50px;
 }
 .reachus{
-    margin-left: 25px;
+    margin-left: 2px;
+    letter-spacing: 1px;
+    font-size: 11px;
 }
 .number{
     font-size:large; 
@@ -90,7 +77,9 @@ footer {
 
   }
 nav {
+    
     display: flex;
+    font-size: 12px;
     justify-content: space-between;
     background-color: black;
     color: white;
@@ -99,10 +88,13 @@ nav {
 }
 
 nav h2 {
+    font-size: 16px;
     margin-top: 5px;
     margin-left: 5px;
     display: flex;
+    margin-top: 25px;
     font-weight: 800;
+
     letter-spacing: 5px;
 }
 
@@ -144,7 +136,7 @@ li a {
 
 .carousel-item img {
     width: 1366px;
-    height: 570px;
+    height: 570px;   
 }
 
 .services {
@@ -231,7 +223,7 @@ li a {
         font-size: 20px;
         margin-left: -50px;
     }
-
+        
     .image-block {
         width: 350px;
        margin-left: -40px;
@@ -276,4 +268,17 @@ li a {
         width: 1366px;
         height: 300px;
     }
+     
+    .offers
+    {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .plans img
+    {
+        width: 90vw;
+        margin-top: 30px;
+    }
+
 }
